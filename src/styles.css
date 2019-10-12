@@ -3,9 +3,12 @@ body{
     margin: 0;
 }
 div nav a:hover{
-    color: blue;
+    color: red;
     background-color:white;
 }
 div nav a:active{
+    color: red;
+}
+div nav a{
     color: blue;
 }
