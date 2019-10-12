@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+div nav a:hover{
+    color: blue;
+    background-color:white;
+}
+div nav a:active{
+    color: blue;
+}
