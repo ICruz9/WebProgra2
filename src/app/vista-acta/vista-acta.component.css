@@ -5,9 +5,9 @@ table, th, td, caption {
     padding-left:30%;
 }
 input[type=number] {
-    width: 7%;
+    width: 100px;
     box-sizing: border-box;
-  }
+}
 .encabezado{
     font-weight: bold;
     padding-top: 80px;
@@ -17,8 +17,17 @@ input[type=number] {
 caption{
  font-weight: bold;   
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 900px) and (min-width:660px) {
+    
     .cltable{
-        padding-left:25%;
+        padding-left:10%;
     }
+    
+}
+@media (max-width: 660px) {
+    
+    .cltable{
+        padding-left:1%;
+    }
+    
 }
