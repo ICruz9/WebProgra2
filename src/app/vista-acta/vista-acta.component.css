@@ -1,0 +1,24 @@
+table, th, td, caption {
+    border: 1px solid black;
+}
+.cltable{
+    padding-left:30%;
+}
+input[type=number] {
+    width: 7%;
+    box-sizing: border-box;
+  }
+.encabezado{
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+caption{
+ font-weight: bold;   
+}
+@media only screen and (max-width: 600px) {
+    .cltable{
+        padding-left:25%;
+    }
+}
